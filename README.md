@@ -9,6 +9,10 @@ The website is
 
 <img src= "https://github.com/yvielcastillejos/MaskInformation/blob/main/imgs/Screen%20Shot%202020-11-06%20at%208.08.50%20PM.png" width = 500 height = 300>
 
-# TODO
+## Next
 - As of the moment, onyl the N95 mask has been added.
 - I plan to add Surgical, Cloth and Maybe other masks in the future
+
+## Acknowledgement
+
+[1] HTML Tutorial I found online: https://www.youtube.com/watch?v=a2UnYs9AA_M
