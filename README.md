@@ -3,7 +3,7 @@ I created a website that contains information about various facemasks. I used HT
 
 ## Site
 The website is
-```https://yvielcastillejos.github.io/MaskInformation/```
+https://yvielcastillejos.github.io/MaskInformation/
 
 ## Looks
 
