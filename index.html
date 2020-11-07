@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title> Mask Information</title>
+    <link href = "style.css" rel = "stylesheet">
+</head>
+<body>
+
+    <div class="main">
+      <nav>
+        <div class = "logo">
+            <img src= "imgs/logo2.png">
+        </div>
+          <div class = "nav-links">
+            <ul>
+              <li><a href= "#"> N95</a></li>
+              <li><a href= "#"> Surgical</a></li>
+              <li><a href= "#"> Cloth</a></li>
+              <li><a href= "#"> Info</a></li>
+            </ul>
+          </div>
+      </nav>
+        
+        <div class= "information">
+           <div class= "overlay"></div>
+           <div id="circle">
+               
+               <div class="feature one">
+                       <div>
+                           <h1> Description</h1>
+                           <p> a particulate-filtering facepiece </p>
+                           <p> respirator. It provides a</p>
+                           <p> stronger barrier than surgical</p>
+                           <p> or cloth masks.</p>
+                       </div>
+               </div>
+               
+               <div class="feature two">
+                   <div>
+                        <h1> Cost</h1>
+                        <p> They are more expensive</p>
+                        <p> than one's regular mask.</p>
+                        <p> N95 masks cost around $3.40</p>
+                        <p> per mask.</p>
+                   </div>
+               </div>
+               
+                <div class="feature three">
+                   <div>
+                        <h1> Pros</h1>
+                       <p> N95 masks prevents ~95% </p>
+                       <p> of particles from </p>
+                       <p>0.3 microns or smaller.</p>
+                       <p>These masks are the gold standard</p>
+                       <p>for protection during </p>
+                       <p>the COVID 19 pandemic</p>
+                   </div>
+               </div>    
+               
+                <div class="feature four">
+                   <div>
+                        <h1> Cons</h1>
+                        <p>  Harder to breathe in </p>
+                   </div>
+               </div>         
+            </div>
+                <div class="feature five">
+                   <img src = "imgs/n95.png" width= 0 height= 200>
+               </div>    
+            
+        </div>
+                   <div class ="maskname">
+                        <h1> N95 Mask</h1>
+                   </div>
+          
+               <div class="controls">
+                   <div id="rectangle"> 
+                   <img src = "imgs/arrow.png" id="up">
+                   <h3> Information</h3>
+                   <img src = "imgs/arrow.png" id = "down">
+                   </div>
+             </div> 
+    </div>
+    
+            <script>
+                var circle = document.getElementById("circle")
+                var down = document.getElementById("down")
+                var up = document.getElementById("up")
+                
+                var rotateValue = circle.style.transform;
+                var rotateSum;
+                up.onclick = function(){
+                    rotateSum = rotateValue + "rotate(-90deg)"
+                    circle.style.transform = rotateSum
+                    rotateValue = rotateSum;
+                    
+                }
+                down.onclick = function(){
+                    rotateSum = rotateValue + "rotate(90deg)"
+                    circle.style.transform = rotateSum
+                    rotateValue = rotateSum;
+                }
+            </script>
+    
+    
+    
+    
+</body>
+</html>
